@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Carrito</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navegacion">
+        <div class="container">
+          <div
+            class="row justify-content-center justify-content-md-between align-items-center p-4"
+          >
+            <div class="col-6 col-md-4">
+              <a href="#">
+                <img
+                  class="img-fluid"
+                  id="logo"
+                  src="img/logo.jpg"
+                  alt="logo"
+                />
+              </a>
+            </div>
+            <div class="col-6 col-md-8">
+              <nav class="nav justify-content-center justify-content-md-end">
+                <a class="nav-link bold" href="/nosotros">Quienes Somos</a>
+                <a class="nav-link bold" href="/viajes">Cursos</a>
+                <a class="nav-link bold" href="/testimonios">FAQ</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div id="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="contenido-hero">
+              <h2>Aprende algo nuevo</h2>
+              <p class="bold">Todos los cursos a $15</p>
+              <form action="#" id="busqueda" method="post" class="formulario">
+                <div class="form-group">
+                  <input
+                    class="form-control"
+                    type="email"
+                    placeholder="Suscribete a nuestro Newsletter"
+                  />
+                </div>
+                <div class="form-group">
+                  <button type="submit" class="form-control btn btn-success">
+                    Enviar
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="barra">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 icono icono1">
+            <p>
+              20,000 Cursos en línea <br />
+              Explora los temas más recientes
+            </p>
+          </div>
+          <div class="col-md-4 icono icono2">
+            <p>
+              Instructores Expertos <br />
+              Aprende con distintos estilos
+            </p>
+          </div>
+          <div class="col-md-4 icono icono3">
+            <p>
+              Acceso de por vida <br />
+              Aprende a tu ritmo
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="lista-cursos" class="container">
+      <h1 id="encabezado" class="encabezado">Cursos En Línea</h1>
+      <div class="row">
+        <div class="col-md-4 col-sm-4">
+          <div class="card">
+            <img src="img/curso1.jpg" class="imagen-curso img-fluid" />
+            <div class="card-body">
+              <h4>HTML5, CSS3, JavaScript para Principiantes</h4>
+              <p>Jose Ferrer</p>
+              <img src="img/estrellas.png" />
+              <p class="precio">$200 <span class="precio">$15</span></p>
+
+              <a href="#" class="btn btn-primary form-control">Comprar</a>
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="card">
+            <img src="img/eje.jpg" class="imagen-curso img-fluid" />
+            <div class="card-body">
+              <h4>Curso de Comida Vegetariana</h4>
+              <p>Juan Pedro</p>
+              <img src="img/estrellas.png" />
+              <p class="precio">$200 <span class="">$15</span></p>
+              <a href="#" class="btn btn-primary form-control">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="card">
+            <img src="img/curso3.jpg" class="imagen-curso img-fluid" />
+            <div class="card-body">
+              <h4>Guitarra para Principiantes</h4>
+              <p>Maikol Red</p>
+              <img src="img/estrellas.png" />
+              <p class="precio">$200 <span>$15</span></p>
+              <a href="#" class="btn btn-primary form-control">Comprar</a>
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+      </div>
+      <!--.row-->
+      <div class="row">
+        <div class="col-md-4 col-sm-4">
+          <div class="card">
+            <img src="img/curso4.jpg" class="img-fluid" />
+            <div class="card-body">
+              <h4>Cosecha tus propias frutas y verduras</h4>
+              <p>Sofia Mortis</p>
+              <img src="img/estrellas.png" class="img-fluid" />
+              <p class="precio">$200 <span>$15</span></p>
+              <a href="#" class="btn btn-primary form-control">Comprar</a>
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="card">
+            <img src="img/vuejs.jpg" class="img-fluid" />
+            <div class="card-body">
+              <h4>Vuejs Desde Cero</h4>
+              <p>Maikol Parker</p>
+              <img src="img/estrellas.png" />
+              <p class="precio">$200 <span>$15</span></p>
+              <a href="#" class="btn btn-primary form-control">Comprar</a>
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="card">
+            <img src="img/curso7.png" class="img-fluid" />
+            <div class="card-body">
+              <h4>Cración de REST API Con Nodejs</h4>
+              <p>Jean Peper</p>
+              <img src="img/estrellas.png" />
+              <p class="precio">$200 <span>$15</span></p>
+              <a href="#" class="btn btn-primary form-control">Comprar</a>
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+      </div>
+      <!--.row-->
+      <div class="row">
+        <div class="col-md-4 col-sm-4">
+          <div class="card">
+            <img src="img/curso6.jpg" class="img-fluid" />
+            <div class="card-body">
+              <h4>Nodejs Socket.io + Vuejs</h4>
+              <p>Ellen Susan</p>
+              <img src="img/estrellas.png" />
+              <p class="precio">$200 <span>$15</span></p>
+              <a href="#" class="btn btn-primary form-control">Comprar</a>
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="card">
+            <img src="img/studio.jpg" class="img-fluid" />
+            <div class="card-body">
+              <h4>Estudio Musical en tu casa</h4>
+              <p>Chris Evans</p>
+              <img src="img/estrellas.png" />
+              <p class="precio">$200 <span class="u-pull-right">$15</span></p>
+              <a href="#" class="btn btn-primary form-control" data-id="8"
+                >Comprar</a
+              >
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="card">
+            <img src="img/curso9.jpg" class="img-fluid" />
+            <div class="card-body">
+              <h4>CoffeeScript + Vanilla Javascript & POO!</h4>
+              <p>Jose Nerd</p>
+              <img src="img/estrellas.png" />
+              <p class="precio">$200 <span class="u-pull-right">$15</span></p>
+              <a href="#" class="btn btn-primary form-control" data-id="9"
+                >Comprar</a
+              >
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+      </div>
+      <!--.row-->
+      <div class="row pb-5">
+        <div class="col-md-4 col-sm-4">
+          <div class="card">
+            <img src="img/cuso11.jpg" class="img-fluid" />
+            <div class="card-body">
+              <h4>Desarrolo Web con PHP 7</h4>
+              <p>Marta Clark</p>
+              <img src="img/estrellas.png" />
+              <p class="precio">$200 <span class="u-pull-right">$15</span></p>
+              <a href="#" class="btn btn-primary form-control" data-id="10"
+                >Comprar</a
+              >
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="card">
+            <img src="img/curso12.jpg" class="img-fluid" />
+            <div class="card-body">
+              <h4>Stack MEAN desde cero</h4>
+              <p>Owen Smith</p>
+              <img src="img/estrellas.png" />
+              <p class="precio">$200 <span class="u-pull-right">$15</span></p>
+              <a href="#" class="btn btn-primary form-control" data-id="11"
+                >Comprar</a
+              >
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="card">
+            <img src="img/curso9.jpeg" class="img-fluid" />
+            <div class="card-body">
+              <h4>Aprende ReactJS!</h4>
+              <p>Naira Bonaven</p>
+              <img src="img/estrellas.png" />
+              <p class="precio">$200 <span class="u-pull-right">$15</span></p>
+              <a href="#" class="btn btn-primary form-control" data-id="12"
+                >Comprar</a
+              >
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+      </div>
+      <!--.row-->
+    </div>
+
+    <!-- <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-6 col-sm-4 mb-">
+                            <nav id="principal" class="menu">
+                                <a class="enlace" href="#">¿Quienes Somos?</a>
+                                <a class="enlace" href="#">Cursos</a>
+                                <a class="enlace" href="#">FAQ </a>
+                            </nav>
+                    </div>
+            </div>
+        </div>
+    </footer> -->
+    <hr class="" />
+    <footer class="container py-5">
+      <div class="row">
+        <div class="col-md-6">
+          <nav class="nav justify-content-center justify-content-md-start">
+            <a class="nav-link" href="#">Nosotros</a>
+            <a class="nav-link" href="#">Viajes</a>
+            <a class="nav-link" href="#">Testimoniales</a>
+          </nav>
+        </div>
+        <div class="col-md-6">
+          <p class="copyright text-center text-md-right">
+            Todos los Derechos Reservados 2020
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
